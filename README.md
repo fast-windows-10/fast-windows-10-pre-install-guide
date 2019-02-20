@@ -25,6 +25,7 @@ fast windows 10 pre-install guide
 ### Usefull tools
 - License key finding software
 	- `slmgr /dlv`
+	- `slmgr /dlv all`
 	- [Belarc Advisor](https://www.belarc.com/products_belarc_advisor)
 	- [Magical Jelly Bean Keyfinder](https://www.magicaljellybean.com/keyfinder/)
 	- [WinKeyFinder](https://www.winkeyfinder.com/)
@@ -45,3 +46,5 @@ fast windows 10 pre-install guide
 - Windows ***system information***
 
 ## <a name="unbind-windows-license">Unbind Windows License</a>
+Simply open the command prompt and run the command `slmgr /upk`
+To check if it was properly unbound, go to windows search and search `Activation` to see the status
