@@ -46,5 +46,8 @@ fast windows 10 pre-install guide
 - Windows ***system information***
 
 ## <a name="unbind-windows-license">Unbind Windows License</a>
-Simply open the command prompt and run the command `slmgr /upk`
-To check if it was properly unbound, go to windows search and search `Activation` to see the status
+- Simply open the command prompt and run the following commands commands:
+	- `slmgr /upk`
+	- `slmgr /cpky`
+	- `slmgr /rearm`
+- To check if it was properly unbound, go to windows search and search `Activation` to see the status
