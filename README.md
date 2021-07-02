@@ -23,7 +23,7 @@ fast windows 10 pre-install guide
 	
 ## <a name="backup-license-keys">Backup License Keys</a>
 ### Usefull tools
-- License key finding software
+- License key finding software (run commands as admin)
 	- `slmgr /dlv`
 	- `slmgr /dlv all`
 	- [Belarc Advisor](https://www.belarc.com/products_belarc_advisor)
@@ -46,8 +46,9 @@ fast windows 10 pre-install guide
 - Windows ***system information***
 
 ## <a name="unbind-windows-license">Unbind Windows License</a>
-- Simply open the command prompt and run the following commands commands:
+- Simply open the command prompt and run the following commands (as admin):
 	- `slmgr /upk`
 	- `slmgr /cpky`
+	- `slmgr /ckms`
 	- `slmgr /rearm`
 - To check if it was properly unbound, go to windows search and search `Activation` to see the status
