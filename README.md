@@ -26,6 +26,7 @@ fast windows 10 pre-install guide
 - License key finding software (run commands as admin)
 	- `slmgr /dlv`
 	- `slmgr /dlv all`
+	- `wmic path SoftwareLicensingService get OA3xOriginalProductKey`
 	- [Belarc Advisor](https://www.belarc.com/products_belarc_advisor)
 	- [Magical Jelly Bean Keyfinder](https://www.magicaljellybean.com/keyfinder/)
 	- [WinKeyFinder](https://www.winkeyfinder.com/)
