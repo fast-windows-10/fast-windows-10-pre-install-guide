@@ -27,9 +27,9 @@ fast windows 10 pre-install guide
 	- `slmgr /dlv`
 	- `slmgr /dlv all`
 	- `wmic path SoftwareLicensingService get OA3xOriginalProductKey`
-	- [Belarc Advisor](https://www.belarc.com/products_belarc_advisor)
-	- [Magical Jelly Bean Keyfinder](https://www.magicaljellybean.com/keyfinder/)
 	- [WinKeyFinder](https://www.winkeyfinder.com/)
+	- [Magical Jelly Bean Keyfinder](https://www.magicaljellybean.com/keyfinder/)
+	- [Belarc Advisor](https://www.belarc.com/products_belarc_advisor)
 - Key recording tools
 	- Windows ***screenshot*** or ***snipping tool***
 	- Phone camera
